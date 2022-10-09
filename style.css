@@ -1,0 +1,75 @@
+.body {background-color:#03989e}
+
+.central {background-color:#03989e}
+
+#header{background-color:#004c50 !important;
+        color:rgb(253, 255, 255) !important;
+        padding-right: 20px;
+        padding-left: 20px;
+        }
+/* Modify the background color */
+.navbar-custom {
+    background-color: #004c50;
+}
+.h3 {color:rgb(253, 255, 255)!important}
+
+.navbar-brand {
+    color:white !important;
+}
+.list-group {--bs-list-group-bg: transparent !important}
+.list-group-item {color:rgb(253, 255, 255)!important}
+.bi-instagram {color:rgb(253, 255, 255)!important} 
+.bi-facebook {color:rgb(255, 255, 255)!important} 
+.bi-whatsapp {color:rgb(255, 255, 255)!important}
+
+#main{background-color:#03989e;
+      }
+#main img {width:80px;
+filter: grayscale(20%);}
+
+#main .carousel-inner img {max-height:90vh;
+object-fit:cover;
+}
+#carousel{ position :relative;}
+
+#carousel .overlay {posItion:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color:rgba(0,0,0,0.5);
+color:white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay  .row {
+    height: 100%;
+   
+}
+
+
+.btn-dientito {background-color: #25e5eb!important;}
+.btn-dientito:hover{ background-color:  #039398!important;}
+
+#servicios{ background-color: #039398;
+color:white;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+
+.card {color:#142a2b
+
+}
+#servicios .container {
+   margin-bottom : 0;
+   margin-top: 0;
+   padding-bottom: 30px;
+   padding-top: 0px;
+   
+}
+
+#footer {background-color:#004c50 
+    
+}
+#footer a {color: white;}
+
