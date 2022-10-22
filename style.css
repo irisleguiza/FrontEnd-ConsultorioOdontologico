@@ -1,65 +1,77 @@
-.body {background-color:#03989e}
+.body {background-color:white;}
 
-.central {background-color:#03989e}
+.central {background-color:white;}
 
-#header{background-color:#004c50 !important;
-        color:rgb(253, 255, 255) !important;
+#header{background-color:white !important;
+        color:#004c50 !important;
         padding-right: 20px;
-        padding-left: 20px;
-        }
-/* Modify the background color */
-.navbar-custom {
-    background-color: #004c50;
-}
-.h3 {color:rgb(253, 255, 255)!important}
+        padding-left: 20px;}
 
-.navbar-brand {
-    color:white !important;
-}
+.navbar-custom {background-color:white;}
+
+.servicios {color:#004c50;}
+h1{color:#002729;
+animation-duration: 4s;}
+
+h2{ color:#002729;
+animation-duration: 3s; }
+
+h3{color:#004c50!important;}
+
+.navbar-brand {color:white !important;}
 .list-group {--bs-list-group-bg: transparent !important}
-.list-group-item {color:rgb(253, 255, 255)!important}
-.bi-instagram {color:rgb(253, 255, 255)!important} 
-.bi-facebook {color:rgb(255, 255, 255)!important} 
-.bi-whatsapp {color:rgb(255, 255, 255)!important}
+.list-group-item {color:#03989e!important}
+.bi-instagram {color:#03989e!important} 
+.bi-facebook {color:#03989e!important} 
+.bi-whatsapp {color:#03989e!important}
 
-#main{background-color:#03989e;
-      }
+.bi-instagram:hover {color:#004c50!important} 
+.bi-facebook:hover {color:#004c50!important} 
+.bi-whatsapp:hover {color:#004c50!important}
+
+.btn.btn-dentista{ background-color: #05edf5!important;
+ ;}
+.btn.btn-dentista:hover{background-color:#004c50!important; color:white}
+#main{background-color:white;}
+
 #main img {width:80px;
-filter: grayscale(20%);}
+filter: grayscale(20%);
+background-color: white;}
 
 #main .carousel-inner img {max-height:90vh;
-object-fit:cover;
-}
-#carousel{ position :relative;}
+    object-fit:cover;
+    border-radius: 30%;
+    background-size: 100% auto;
+    background-color: white;}
 
-#carousel .overlay {posItion:absolute;
+#carousel{ position :relative;
+border-radius: 30px;
+background-color: white;}
+
+#carousel .overlay {position:absolute;
 top:0;
 bottom:0;
 left:0;
 right:0;
-background-color:rgba(0,0,0,0.5);
-color:white;
-}
+color:rgb(2, 1, 25);}
 
-#carousel .overlay .container,
+#carousel .overlay .container{text-align: center;
+ }
 #carousel .overlay  .row {
-    height: 100%;
-   
-}
+    height: 100%;}
 
 
-.btn-dientito {background-color: #25e5eb!important;}
-.btn-dientito:hover{ background-color:  #039398!important;}
 
-#servicios{ background-color: #039398;
-color:white;
+#servicios{ background-color:white;
+color:#004c50;
 padding-bottom: 0px;
 padding-top: 0px;
 }
 
-.card {color:#142a2b
-
+.card {background-color: white;
+    color:#004c50;
 }
+
 #servicios .container {
    margin-bottom : 0;
    margin-top: 0;
@@ -68,8 +80,7 @@ padding-top: 0px;
    
 }
 
-#footer {background-color:#004c50 
-    
+#footer {background-color:white;
 }
-#footer a {color: white;}
+#footer a {color: #004c50;}
 
